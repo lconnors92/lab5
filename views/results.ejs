@@ -7,6 +7,13 @@
     <%- include("partials/header.ejs") %><br><br>
  <h2> Quotes Found: </h2> <br>
 
+ <% if (quotes.length == 0) { %>
+
+  <h2>No results found, try a category or a keyword like "happiness"! </h2>
+
+
+ <% } else { %>
+
  <% for (i of quotes) { %>
 
     <b><%= i.quote%></b> <br>
@@ -19,6 +26,8 @@
        Likes: <%= i.likes %>
        <br><br>
 
+
+ <% } %>
 
  <% } %>
  

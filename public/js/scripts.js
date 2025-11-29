@@ -1,4 +1,4 @@
-alert("Script file successfully accessed!")
+// alert("Script file successfully accessed!")
 //event listeners
 let authorLinks = document.querySelectorAll("a");
 for (authorLink of authorLinks) {
