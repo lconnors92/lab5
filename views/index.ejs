@@ -1,6 +1,12 @@
 <body>
 
- <h1> Quote Finder </h1>
+ 
+
+  <div id="main">
+
+     <%- include("partials/header.ejs") %>
+
+<h2> Find A Quote! </h2>
 
    <form action="/searchByKeyword">
      Keyword: 
@@ -36,8 +42,10 @@
      <button>Search by Likes</button>
    </form>
 
+  </div>
 
-   <%- include("partials/footer.ejs") %>
+  <%- include("partials/footer.ejs") %>
+ 
 
 </body>
  
