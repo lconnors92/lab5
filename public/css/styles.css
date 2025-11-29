@@ -27,14 +27,13 @@ h1 {
   font-weight: 500;
   font-style: normal;
   font-size: xx-large;
-  letter-spacing: 5px;
 }
 
 h2 {
   font-family: "Sirin Stencil", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
-  font-size: large;
+  font-size: x-large;
   letter-spacing: 5px;
 }
 
@@ -52,8 +51,8 @@ h2 {
 /*Google Fonts*/
 
 body {
-  font-family: "Dela Gothic One", sans-serif;
-  font-weight: 30;
+  font-family: "Sirin Stencil", sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: large;
 }
@@ -69,41 +68,34 @@ p {
     text-align: left;
 }
 
-#usernameError,
-#passwordError,
-#zipError,
-#suggestedPwd {
-    font-size: 1.1rem;
-}
-
-#signupForm input,
-#signupForm select {
+#main input,
+#main select {
     padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 6px;
-    border: 1px solid #fff3f3;
-    background-color: #da7509;
-    color: #f5f5f5;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #5a8c19;
+    background-color: #a2cb7e;
+    color: #000000;
 }
 
-#subButton {
+button {
     cursor: pointer;
-    font-size: 2rem;
     font-family: "Sirin Stencil", sans-serif;
     font-weight: 500;
     font-style: normal;
-}
-
-#subButton {
-    display: block;
     margin: 20px auto;
+    background-color: #0ccf36;
 }
 
-#subButton:hover {
-    background-color: #ff7f1a;
-    transform: scale(1.15);
-    transition: 0.7s;
+button:hover {
+    filter: brightness(1.6);
+    transition: 0.3s;
 }
+
+
 
 #state,
 #county {
